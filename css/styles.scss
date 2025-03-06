@@ -1,0 +1,133 @@
+$hover-color:rgb(177, 177, 251);
+
+.products--container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 15px;
+    
+    .card--product{
+        align-items: center;
+        cursor: pointer;
+        width: 1fr;
+       
+
+        &:hover {
+            transform: scale(1.06);
+        }
+
+        .card-img-top{
+            width: 30%;
+        }
+
+        .card-body{
+            padding: 15%;
+          
+            .card-text{
+                font-size: 16px;
+                line-height: 1.5;
+                text-align: left;
+                display: block;  
+                width: 100%;
+            }
+        }
+
+        .btn-primary {
+            width: 100%;
+            transition: background-color 0.3s ease-in-out;
+
+            &:hover´{
+                background-color: $hover-color;
+            }
+        }
+    }
+
+    .card--product2{
+        align-items: center;
+        cursor: pointer;
+        width: 1fr;
+        padding: 1fr;
+        margin: auto;
+
+        &:hover {
+
+            transform: scale(1.04);
+        }
+
+        .card-img-top{
+            width: 30%;
+        }
+
+        .card-body{
+            padding: 15%;
+        }
+
+        .btn-primary {
+            width: 100%;
+            transition: background-color 0.3s ease-in-out;
+            
+            &:hover´{
+                background-color: $hover-color;
+            }
+        }
+    }
+
+    .card--product3{
+        align-items: center;
+        cursor: pointer;
+        width: 1fr;
+        padding: 1fr;
+        margin: auto;
+
+        &:hover {
+
+            transform: scale(1.04);
+        }
+
+        .card-img-top{
+            width: 30%;
+        }
+
+        .card-body{
+            padding: 15%;
+        }
+
+        .btn-primary {
+            width: 100%;
+            transition: background-color 0.3s ease-in-out;
+            
+            &:hover´{
+                background-color: $hover-color;
+            }
+        }
+    }
+}
+
+@media (max-width: 480px) {
+
+    .products--container{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card--product {
+      width: 95%;
+      padding: 15px; 
+
+      .card-body {
+        text-align: left;
+        font-size: 14px; 
+        line-height: 1.6;
+
+        .card-text{
+         width: 100%;   
+         font-size: 14px;
+        }
+      }
+    }
+
+    .card-body {
+        width: 95%;
+        padding: 15%;
+    }
+  }

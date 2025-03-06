@@ -1,0 +1,105 @@
+@charset "UTF-8";
+.products--container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 15px;
+}
+.products--container .card--product {
+  align-items: center;
+  cursor: pointer;
+  width: 1fr;
+}
+.products--container .card--product:hover {
+  transform: scale(1.06);
+}
+.products--container .card--product .card-img-top {
+  width: 30%;
+}
+.products--container .card--product .card-body {
+  padding: 15%;
+}
+.products--container .card--product .card-body .card-text {
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: left;
+  display: block;
+  width: 100%;
+}
+.products--container .card--product .btn-primary {
+  width: 100%;
+  transition: background-color 0.3s ease-in-out;
+}
+.products--container .card--product .btn-primary:hover´ {
+  background-color: rgb(177, 177, 251);
+}
+.products--container .card--product2 {
+  align-items: center;
+  cursor: pointer;
+  width: 1fr;
+  padding: 1fr;
+  margin: auto;
+}
+.products--container .card--product2:hover {
+  transform: scale(1.04);
+}
+.products--container .card--product2 .card-img-top {
+  width: 30%;
+}
+.products--container .card--product2 .card-body {
+  padding: 15%;
+}
+.products--container .card--product2 .btn-primary {
+  width: 100%;
+  transition: background-color 0.3s ease-in-out;
+}
+.products--container .card--product2 .btn-primary:hover´ {
+  background-color: rgb(177, 177, 251);
+}
+.products--container .card--product3 {
+  align-items: center;
+  cursor: pointer;
+  width: 1fr;
+  padding: 1fr;
+  margin: auto;
+}
+.products--container .card--product3:hover {
+  transform: scale(1.04);
+}
+.products--container .card--product3 .card-img-top {
+  width: 30%;
+}
+.products--container .card--product3 .card-body {
+  padding: 15%;
+}
+.products--container .card--product3 .btn-primary {
+  width: 100%;
+  transition: background-color 0.3s ease-in-out;
+}
+.products--container .card--product3 .btn-primary:hover´ {
+  background-color: rgb(177, 177, 251);
+}
+
+@media (max-width: 480px) {
+  .products--container {
+    flex-direction: column;
+    align-items: center;
+  }
+  .card--product {
+    width: 95%;
+    padding: 15px;
+  }
+  .card--product .card-body {
+    text-align: left;
+    font-size: 14px;
+    line-height: 1.6;
+  }
+  .card--product .card-body .card-text {
+    width: 100%;
+    font-size: 14px;
+  }
+  .card-body {
+    width: 95%;
+    padding: 15%;
+  }
+}/*# sourceMappingURL=styles.css.map */
